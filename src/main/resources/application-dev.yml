@@ -1,0 +1,12 @@
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+server:
+  port: 8080
+
+knife4j:
+  enable: true
+
+
