@@ -1,13 +1,26 @@
 package com.zsrc.face;
 
+import com.arcsoft.face.FaceEngine;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
 
 @SpringBootTest
-class FaceApplicationTests {
+@Slf4j
+public class FaceApplicationTests {
 
 	@Test
 	void contextLoads() {
+	}
+
+	@Autowired
+	private FaceEngine faceEngine;
+
+	@Test
+	public void test(){
+//		faceEngine.activeOnline("","");
 	}
 
 }

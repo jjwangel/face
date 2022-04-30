@@ -10,8 +10,9 @@ knife4j:
   enable: true
 
 arcsoft:
-  app-id: "BRMRGJvqKDTNRxaoeHQJoLLXp78PcPUMCBo3HMPcGbh3"
-  sdk-key: "HXiqiJpzVGsbyJQuMaR9CUvBkwLPdtb4ux7NnrN2SWdz"
-  sdk-lib-path: "d:/arcsoft_lib"
+  global:
+    app-id: "BRMRGJvqKDTNRxaoeHQJoLLXp78PcPUMCBo3HMPcGbh3"
+    sdk-key: "HXiqiJpzVGsbyJQuMaR9CUvBkwLPdtb4ux7NnrN2SWdz"
+    sdk-lib-path: "E:\\webproject\\zsebank\\face\\face\\lib"
 
 
