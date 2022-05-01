@@ -14,5 +14,19 @@ arcsoft:
     app-id: "BRMRGJvqKDTNRxaoeHQJoLLXp78PcPUMCBo3HMPcGbh3"
     sdk-key: "HXiqiJpzVGsbyJQuMaR9CUvBkwLPdtb4ux7NnrN2SWdz"
     sdk-lib-path: "E:\\webproject\\zsebank\\face\\face\\lib"
+  engineConfig:
+    detect-mode: 1  #0：VIDEO模式; 1：IMAGE模式
+    detect-face-orient-priority: 5  #人脸检测角度，1:逆时针0度；2：逆时针90度；3：逆时针180度；4：逆时针270度；5：全角度检测
+    detect-face-max-num: 10  #最大需要检测的人脸个数，取值范围[1,50]
+    detect-face-scale-val: 32  #识别的最小人脸比例（图片长边与人脸框长边的比值）;VIDEO模式取值范围[2,32]，推荐值为16;IMAGE模式取值范围[2,32]，推荐值为32
+  functionConfig:
+    support-age: true  #是否支持年龄检测功能
+    support-face3d-angle: true  #是否支持3D检测功能
+    support-face-detect: true  #是否支持人脸检测功能
+    support-face-recognition: true  #是否支持人脸识别功能
+    support-gender: true  #是否支持性别检测功能
+    support-liveness: true  #是否支持RGB活体检测功能
+    support-ir-liveness: true  #是否支持IR活体检测功能
+
 
 
